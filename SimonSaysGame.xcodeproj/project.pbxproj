@@ -57,11 +57,19 @@
 				D8EA816720E2B7190090EE31 /* AppDelegate.swift */,
 				D8EA816920E2B7190090EE31 /* ViewController.swift */,
 				D8EA816B20E2B7190090EE31 /* Main.storyboard */,
+				D8EA817920E2BC280090EE31 /* Resources */,
+			);
+			path = SimonSaysGame;
+			sourceTree = "<group>";
+		};
+		D8EA817920E2BC280090EE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				D8EA816E20E2B71C0090EE31 /* Assets.xcassets */,
 				D8EA817020E2B71C0090EE31 /* LaunchScreen.storyboard */,
 				D8EA817320E2B71C0090EE31 /* Info.plist */,
 			);
-			path = SimonSaysGame;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53BVAZ8K9G;
-				INFOPLIST_FILE = SimonSaysGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimonSaysGame/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53BVAZ8K9G;
-				INFOPLIST_FILE = SimonSaysGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimonSaysGame/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
