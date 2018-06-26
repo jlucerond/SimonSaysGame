@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8254D4920E2F1F700F3DE8A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254D4820E2F1F700F3DE8A /* SplashScreenViewController.swift */; };
 		D8EA816820E2B7190090EE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA816720E2B7190090EE31 /* AppDelegate.swift */; };
 		D8EA816A20E2B7190090EE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA816920E2B7190090EE31 /* ViewController.swift */; };
 		D8EA816D20E2B7190090EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EA816B20E2B7190090EE31 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8254D4820E2F1F700F3DE8A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		D8EA816420E2B7190090EE31 /* SimonSaysGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSaysGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EA816720E2B7190090EE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8EA816920E2B7190090EE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				D8EA816720E2B7190090EE31 /* AppDelegate.swift */,
 				D8EA816920E2B7190090EE31 /* ViewController.swift */,
+				D8254D4820E2F1F700F3DE8A /* SplashScreenViewController.swift */,
 				D8EA817C20E2D95D0090EE31 /* GamePlay.swift */,
 				D8EA817A20E2D7E30090EE31 /* Constants.swift */,
 				D8EA816B20E2B7190090EE31 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 				D8EA816A20E2B7190090EE31 /* ViewController.swift in Sources */,
 				D8EA817D20E2D95D0090EE31 /* GamePlay.swift in Sources */,
 				D8EA816820E2B7190090EE31 /* AppDelegate.swift in Sources */,
+				D8254D4920E2F1F700F3DE8A /* SplashScreenViewController.swift in Sources */,
 				D8EA817B20E2D7E30090EE31 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevelopr.SimonSaysGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevelopr.SimonSaysGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
